@@ -11,7 +11,7 @@ in
 
       model = nix-hug-lib.fetchModel {
         inherit (_model_) url rev;
-        fileTreeHash = "sha256-19OHlIBCdjdaGulgofUkMFKwkhD1i/1RWblgwuKctyw=";
+        fileTreeHash = "sha256-pj/B9uC9VHwm4E9Ba3VwBY38zOW55OU4EGMe1KM8HbU=";
       };
     in
     {
