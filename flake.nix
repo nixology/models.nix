@@ -4,7 +4,7 @@
   inputs.flake.url = "github:nixology/flake.nix";
 
   #inputs.nix-hug.url = "github:longregen/nix-hug";
-  inputs.nix-hug.url = "github:marksisson/nix-hug/use-nixpkgs-fetchurl";
+  inputs.nix-hug.url = "github:marksisson/nix-hug/marksisson/add-fetchurl-curl-opts";
   inputs.nix-hug.inputs.nixpkgs.follows = "flake/core/nixpkgs";
 
   inputs.unsloth--Qwen3_6-27B-MLX-8bit.url = "git+https://huggingface.co/unsloth/Qwen3.6-27B-MLX-8bit";
@@ -30,6 +30,12 @@
 
   inputs.yujiepan--mistral-v0_3-tiny-random.url = "git+https://huggingface.co/yujiepan/mistral-v0.3-tiny-random";
   inputs.yujiepan--mistral-v0_3-tiny-random.flake = false;
+
+  inputs.yujiepan--gemma-3-tiny-random.url = "git+https://huggingface.co/yujiepan/gemma-3-tiny-random";
+  inputs.yujiepan--gemma-3-tiny-random.flake = false;
+
+  inputs.google--gemma-3-1b-it.url = "git+https://huggingface.co/google/gemma-3-1b-it";
+  inputs.google--gemma-3-1b-it.flake = false;
 
   outputs =
     inputs: with inputs.flake.lib; mkFlake { inherit inputs; } { imports = modulesIn ./modules; };

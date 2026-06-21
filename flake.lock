@@ -125,6 +125,22 @@
         "type": "github"
       }
     },
+    "google--gemma-3-1b-it": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1743772360,
+        "narHash": "sha256-bbkUcq11f4U6bwV1N63IdrG5qLxHEoAV0FOjcCbItf4=",
+        "ref": "refs/heads/main",
+        "rev": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+        "revCount": 7,
+        "type": "git",
+        "url": "https://huggingface.co/google/gemma-3-1b-it"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://huggingface.co/google/gemma-3-1b-it"
+      }
+    },
     "nix-hug": {
       "inputs": {
         "nixpkgs": [
@@ -134,16 +150,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1781378659,
-        "narHash": "sha256-pMVMUQaRTCsEscL+I5tPjxeDyCiX2KG9ttu4RRnnCxs=",
+        "lastModified": 1781967748,
+        "narHash": "sha256-RJams51fGsTUHKRuQYcfzVbLeGD7aBcKj3RFGD51XYQ=",
         "owner": "marksisson",
         "repo": "nix-hug",
-        "rev": "cfd663e6a36cb0a40b8e6724095814ca3804d933",
+        "rev": "61249e3f631b134c790e1a07f319cc32a79c5532",
         "type": "github"
       },
       "original": {
         "owner": "marksisson",
-        "ref": "use-nixpkgs-fetchurl",
+        "ref": "marksisson/add-fetchurl-curl-opts",
         "repo": "nix-hug",
         "type": "github"
       }
@@ -189,9 +205,11 @@
         "Qwen--Qwen2_5-1_5B-Instruct": "Qwen--Qwen2_5-1_5B-Instruct",
         "Qwen--Qwen3-0_6B": "Qwen--Qwen3-0_6B",
         "flake": "flake",
+        "google--gemma-3-1b-it": "google--gemma-3-1b-it",
         "nix-hug": "nix-hug",
         "unsloth--Qwen3_6-27B-MLX-8bit": "unsloth--Qwen3_6-27B-MLX-8bit",
         "unsloth--Qwen3_6-35B-A3B-MLX-8bit": "unsloth--Qwen3_6-35B-A3B-MLX-8bit",
+        "yujiepan--gemma-3-tiny-random": "yujiepan--gemma-3-tiny-random",
         "yujiepan--mistral-v0_3-tiny-random": "yujiepan--mistral-v0_3-tiny-random",
         "yujiepan--qwen2_5-tiny-random": "yujiepan--qwen2_5-tiny-random",
         "yujiepan--qwen3-tiny-random": "yujiepan--qwen3-tiny-random"
@@ -227,6 +245,22 @@
       "original": {
         "type": "git",
         "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3b-MLX-8bit"
+      }
+    },
+    "yujiepan--gemma-3-tiny-random": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742061357,
+        "narHash": "sha256-HjMy9d4fYcvpsZkUmXOyLklw5FPMUNdWGnlrAnc9Zvo=",
+        "ref": "refs/heads/main",
+        "rev": "f746b7ca8ef1ae9ba057354188bfcce0c788d674",
+        "revCount": 3,
+        "type": "git",
+        "url": "https://huggingface.co/yujiepan/gemma-3-tiny-random"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://huggingface.co/yujiepan/gemma-3-tiny-random"
       }
     },
     "yujiepan--mistral-v0_3-tiny-random": {
