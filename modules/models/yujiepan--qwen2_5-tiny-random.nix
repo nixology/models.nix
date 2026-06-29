@@ -1,7 +1,7 @@
 { inputs, ... }:
 let
   flakeLib = inputs.flake.lib;
-  _model_ = flakeLib.metadataForFlakeInput inputs.self inputs.${flakeLib.getFileName __curPos};
+  _model_ = flakeLib.metadataForFlakeInput inputs.self inputs.${flakeLib.getFileStem __curPos.file};
 in
 {
   perSystem =
