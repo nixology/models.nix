@@ -161,6 +161,38 @@
         "url": "https://huggingface.co/google/gemma-3-1b-it"
       }
     },
+    "mlx-community--Ornith-1_0-35B-8bit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782594029,
+        "narHash": "sha256-7yATzBTkb+5+ArOOqcAWu4k22PhfFdY3ztGltt7HQGM=",
+        "ref": "refs/heads/main",
+        "rev": "28d10f45a04981989f5a2e53e38f6473e81e815a",
+        "revCount": 2,
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-35B-8bit"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-35B-8bit"
+      }
+    },
+    "mlx-community--Ornith-1_0-9B-bf16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782639591,
+        "narHash": "sha256-sGVdtj4EhsbBcun/B6zlFsw5Z+8JT53DW78Mi95K1/4=",
+        "ref": "refs/heads/main",
+        "rev": "5944bc88218397fe6879d5b350b26297673f80a7",
+        "revCount": 2,
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-9B-bf16"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-9B-bf16"
+      }
+    },
     "nix-hug": {
       "inputs": {
         "nixpkgs": [
@@ -206,6 +238,8 @@
         "Qwen--Qwen3-0_6B": "Qwen--Qwen3-0_6B",
         "flake": "flake",
         "google--gemma-3-1b-it": "google--gemma-3-1b-it",
+        "mlx-community--Ornith-1_0-35B-8bit": "mlx-community--Ornith-1_0-35B-8bit",
+        "mlx-community--Ornith-1_0-9B-bf16": "mlx-community--Ornith-1_0-9B-bf16",
         "nix-hug": "nix-hug",
         "unsloth--Qwen3_6-27B-MLX-8bit": "unsloth--Qwen3_6-27B-MLX-8bit",
         "unsloth--Qwen3_6-35B-A3B-MLX-8bit": "unsloth--Qwen3_6-35B-A3B-MLX-8bit",

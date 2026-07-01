@@ -37,6 +37,12 @@
   inputs.google--gemma-3-1b-it.url = "git+https://huggingface.co/google/gemma-3-1b-it";
   inputs.google--gemma-3-1b-it.flake = false;
 
+  inputs.mlx-community--Ornith-1_0-35B-8bit.url = "git+https://huggingface.co/mlx-community/Ornith-1.0-35B-8bit";
+  inputs.mlx-community--Ornith-1_0-35B-8bit.flake = false;
+
+  inputs.mlx-community--Ornith-1_0-9B-bf16.url = "git+https://huggingface.co/mlx-community/Ornith-1.0-9B-bf16";
+  inputs.mlx-community--Ornith-1_0-9B-bf16.flake = false;
+
   outputs =
     inputs: with inputs.flake.lib; mkFlake { inherit inputs; } { imports = modulesIn ./modules; };
 }
